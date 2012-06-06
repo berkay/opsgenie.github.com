@@ -1,0 +1,79 @@
+.archive {
+    border-top: 1px dotted #CECFD1!important;
+    list-style: none outside none!important;
+    margin: 1.5em 0 0!important;
+}
+.archive li {
+    margin-bottom: 0!important;
+}
+.archive .full {
+    margin-top: 18px!important;
+}
+.excerpt .comments-link a,
+.excerpt .comments-link a:visited,
+.excerpt .comments-link span{
+	background: url(/images/comment.gif) no-repeat left center!important;
+	padding: 1px 0 0 20px!important;
+}
+.excerpt .comments-link a,
+.excerpt .comments-link a:visited,
+.excerpt .comments-link span{
+	width:120px!important;
+}
+.excerpt {
+    background: url("/images/arrow-bullet.gif") no-repeat scroll 0 12px transparent;
+    border-bottom: 1px dotted #CECFD1!important;
+    color: #999999!important!important;
+    padding: 12px 146px 12px 20px!important;
+    position: relative!important;
+}
+.excerpt strong.entry-title, .excerpt strong.entry-title a {
+    font-size: 14px!important;
+    font-weight: bold!important;
+}
+.excerpt strong.entry-title a, .excerpt strong.entry-title a:visited {
+    color: #51555C!important;
+}
+.excerpt strong.entry-title a:hover {
+    color: #A00004!important;
+    text-decoration: none!important;
+}
+.excerpt .date {
+    margin-top: 1.5em!important;
+}
+.excerpt p {
+    margin: 0!important;
+}
+.excerpt .date, .excerpt .comments-link a, .excerpt .comments-link a:visited, .excerpt .comments-link span {
+    display: block!important;
+    width: 140px!important;
+}
+.excerpt .date, .excerpt .comments-link {
+    position: absolute!important;
+    right: 0!important;
+    top: 14px!important;
+}
+.box ol.archive li {
+    margin-bottom: 0px!important;
+    margin-left: 0!important;
+}
+
+ol.archive {
+    list-style: none outside none!important;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+
+.excerpt a, .excerpt a:visited {
+    color: #A00004!important;
+    text-decoration: none!important;
+}
+
+.excerpt a:visited {
+    color: #51555C!important;
+}
+.excerpt a, .excerpt a:visited {
+    color: #A00004!important;
+    text-decoration: none!important;
+}

@@ -1,0 +1,86 @@
+	</div>
+
+</div>
+<footer role="contentinfo" class="clearfix">
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-31406268-1']);
+        _gaq.push(['_setDomainName', 'opsgenie.com']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <section class="container_12">
+        <div class="lower clearfix">
+            <div class="grid_2">
+                <ul class="footer_main_navigation">
+                    <li class="footerTitle"><a href="http://www.opsgenie.com/" title="Home"><span>Home</span></a></li>
+                    <li><a href="http://www.opsgenie.com/features" title="Features"><span>Features</span></a></li>
+                    <li><a href="http://www.opsgenie.com/why" title="Why OpsGenie"><span>Why OpsGenie</span></a></li>
+                    <li><a href="http://blog.opsgenie.com/" title="Blog"><span>Blog</span></a></li>
+                    <li><a href="http://support.opsgenie.com" title="Support"><span>Support</span></a></li>
+                    <li><a href="http://www.opsgenie.com/pricing" title="Pricing"><span>Pricing</span></a></li>
+                </ul>
+            </div>
+            <div class="grid_2">
+                <ul class="footer_main_navigation">
+                    <li><a href="http://www.opsgenie.com/legal" title="Legal" class="footerTitle"><span>Legal</span></a></li>
+                    <li><a href="http://www.opsgenie.com/privacy" title="Privacy policy"><span>Privacy policy</span></a></li>
+                    <li><a href="http://www.opsgenie.com/commercial/tos" title="Terms of Service"><span>Terms of Service</span></a></li>
+                    <li><a href="http://www.opsgenie.com/contactus" title="Contact Us"><span>Contact Us</span></a></li>
+                </ul>
+            </div>
+            <div class="grid_2 prefix_5">
+                <a href="http://itunes.apple.com/us/app/opsgenie/id528590328?ls=1&mt=8"><img src="http://www.opsgenie.com/images/App_Store_Badge2.png"></a>
+            </div>
+            <div class="r">
+                <a id="top" class="top">top</a>
+            </div>
+        </div>
+
+        <div class="smallest">
+            <div>
+                © Copyright 2012 iFountain LLC
+            </div>
+        </div>
+    </section>
+</footer>
+<script type="text/javascript">
+    // iOS scale bug fix
+    MBP.scaleFix();
+    // Respond.js
+    yepnope({
+        test:Modernizr.mq('(only all)'),
+        nope:[window.contextPath + '/app/js/libs/respond.min.js']
+    });
+    $(document).ready(function () {
+        if ($.fn.superfish) {
+            $('ul.sf_menu').superfish();
+        }
+        $('#top').click(function () {
+            $('body,html').animate({scrollTop:0}, 800);
+        });
+        // Uniform.js
+        if ($.fn.uniform) {
+            $("select.regular, input:checkbox, input:radio, input.regularfile").uniform();
+        }
+        $('body').bind('click.notification', null, function (event) {
+            var $target = $(event.target);
+            if ($target.hasClass('hider')) {
+                $target.fadeOut(500);
+                var $notification = $target.closest(".notification");
+                $notification.fadeOut(500, function () {
+                    $notification.remove();
+                });
+            }
+        })
+    })
+</script>
+</body>
+</html>
