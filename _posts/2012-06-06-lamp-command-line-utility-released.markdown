@@ -2,8 +2,6 @@
 layout: blogentry
 title: Lamp command line utility released!
 ---
-
-<p>&nbsp;</p>
 <p>Lamp is a command line utility to interact with OpsGenie service. It provides capabilities to create and close alerts, attach files, etc.&nbsp;</p>
 <p>Lamp is used to integrate any management tool that can execute a shell script with OpsGenie. Lamp interacts with the OpsGenie service through the RESTful Web API. Lamp has a built in contextual help system for obtaining information on available commands, and available options for their use.&nbsp;If you invoke lamp with the --help option, you will see the available list of commands. If you invoke lamp with the --help option with a specific command, you will see the options for that command.</p>
 <p>The default values for the parameters can be specified in the lamp.conf file.</p>
@@ -178,5 +176,3 @@ title: Lamp command line utility released!
 <p>Customer key used for authenticating API requests</p></td></tr></tbody></table>
 <h4><br />Sample Usage:</h4>
 <p>&nbsp; &nbsp; lamp heartbeat --customerKey ab5454992-fabb2-4ba2-ad44f-1af65ds8b5c079</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
